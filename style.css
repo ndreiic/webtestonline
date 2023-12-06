@@ -1,0 +1,2230 @@
+@font-face {
+    font-family: 'akira_expandedsuper_bold';
+    src: url('akira_expanded_demo-webfont.woff2') format('woff2'),
+         url('akira_expanded_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikablack';
+    src: url('fontsfree-net-aftikablack-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftikablack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikabold';
+    src: url('fontsfree-net-aftikabold-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftikabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikalight';
+    src: url('fontsfree-net-aftika-light-1-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftika-light-1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikaregular';
+    src: url('fontsfree-net-aftikaregular-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftikaregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aftikasemibold';
+    src: url('fontsfree-net-aftika-semibold-1-webfont.woff2') format('woff2'),
+         url('fontsfree-net-aftika-semibold-1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.section1{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#plvlogo{
+    position: absolute;
+    top: 16px;
+    left: 27px;
+    width: 113px;
+    height: auto;
+    z-index: 5;
+}
+
+.navoverlay{
+    position: absolute;
+    background: linear-gradient(135deg, rgba(8, 29, 129, 0), rgba(8, 29, 129, 0), rgba(8, 29, 129, 0), rgba(27, 20, 100, 1) 83%, rgba(27, 20, 100, 1));
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 1920px;
+    height: 140px;
+    mix-blend-mode: hard-light;
+    z-index: 3;
+}
+
+.navoverlayhistory{
+    position: absolute;
+    background-color: #081D81;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 1920px;
+    height: 140px;
+    z-index: 3;
+    display: block;
+}
+
+.navulhistory{
+    position: absolute;
+    margin: 51px 17px 0 0;
+    right: 0;
+    z-index: 4;
+}
+
+nav ul{
+    position: absolute;
+    margin: 43px 17px 0 0;
+    right: 0;
+    z-index: 4;
+}
+
+nav > ul > li{
+    font-family: 'aftikasemibold';
+    font-size: 24px;
+    color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding-left: 63px;
+    padding-right: 63px;
+    float: left;
+} 
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav.stroke ul li a{
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: white;
+  height: 2px;
+  transition: 0.3s;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+.crop{
+    position: relative;
+    width: 1920px;
+    height: 820px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.crop img{
+    width: 1920px;
+    height: auto;
+    margin-top: -175px;
+    z-index: 1;
+}
+
+.imgoverlay{
+    position: absolute;
+    background: #081D81;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 1920px;
+    height: 820px;
+    mix-blend-mode: hard-light;
+    z-index: 2;
+}
+
+#plv{
+    font-family: "akira_expandedsuper_bold";
+    text-shadow: 9px 7px 5px rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 31.5%;
+    z-index: 7;
+}
+
+#vorld{
+    font-family: "akira_expandedsuper_bold";
+    color: rgba(251, 245, 66, 1);
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 43.5%;
+    z-index: 6;
+}
+
+#section2{
+    position: relative;
+    height: 396px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.left-centered{
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: #081D81;
+    text-transform: uppercase;
+    top: 13%;
+    left: 393px;
+}
+
+.right-centered{
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: #081D81;
+    text-transform: uppercase;
+    top: 13%;
+    right: 378px;
+}
+
+#mission{
+    position: absolute;
+    font-family: "aftikasemibold";
+    font-weight: bold;
+    font-size: 25px;
+    color: #081D81;
+    text-align: center;
+    top: 34%;
+    left: 144px;
+}
+
+#vision{
+    position: absolute;
+    font-family: "aftikasemibold";
+    font-weight: bold;
+    font-size: 25px;
+    color: #081D81;
+    text-align: center;
+    top: 34%;
+    right: 150px;
+}
+
+#section3{
+    position: relative;
+    height: 110vh;
+    width: 300vw;
+    overflow: hidden;
+    margin-top: 0px;
+    background: #081D81 ;
+}
+
+.centered{
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+    top: 10%;
+    left: 16.5%;
+    transform: translate(-50%, -50%);
+}
+
+#centeredHappenings{
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mainCampus{
+    height: 738px;
+    width: auto;
+    margin-left: -85px;
+}
+
+.mainCampus{
+    display: inline-block;
+    position: relative;
+    margin: 150px 0px 0px 10px;
+    transition: .3s ease;
+    height: 738px;
+    width: 400px;    
+    /* background-color: yellow; */
+
+    z-index: 1;
+}
+
+.mainCampus:hover{
+    display: inline-block;
+    position: relative;
+    margin: 135px 13px 0px 13px;
+    transform: scale(1.15);
+   -webkit-transform: scale(1.15);
+   -ms-transform: scale(1.15);
+}
+
+.annexCampus{
+    display: inline-block;
+    position: relative;
+    margin: 150px 0px 0px 0px;
+    transition: .3s ease;
+    /* background-color: aquamarine; */
+    height: 738px;
+    width: 200px;
+    z-index: 1;
+}
+
+.annexCampus:hover{
+    display: inline-block;
+    position: relative;
+    margin: 135px 10px 0px 13px;
+    transform: scale(1.15);
+   -webkit-transform: scale(1.15);
+   -ms-transform: scale(1.15);
+}
+
+#annexCampus{
+    height: 738px;
+    width: auto;
+    margin-left: -85px;
+
+}
+
+#mainCampusText{
+    position: absolute;
+    font-family: "aftikasemibold";
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    top: 85%;
+    left: 60px;
+}
+
+#annexCampusText{
+    position: absolute;
+    font-family: "aftikasemibold";
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    top: 85%;
+    left: 60px;
+}
+
+.campusName{
+    font-family: "aftikabold";
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.campusDetails{
+    font-family: "aftikaregular";
+    font-size: 35px;
+    color: white;
+}
+
+.mainAddress{
+    position: absolute;
+    top: 43%;
+    right: 100px;
+    text-align: left;
+}
+
+.annexAddress{
+    position: absolute;
+    top: 63%;
+    right: 45px;
+    text-align: left;
+}
+
+#pinimg{
+    position: absolute;
+    top: 24.2%;
+    right: 410px;
+    height: 180px;
+    width: auto;
+}
+
+#campus{
+    display: inline-block;
+    position: relative;
+    margin: 0px 0px 0px 350px;
+    height: 100vh;
+    width: 50vw;
+    /* background-color: red; */
+}
+
+.learnmoreButton{
+    position: absolute;
+    font-family: "aftikaregular";
+    color: white;
+    font-size: 22px;
+    top: 97%;
+    left: -100px;
+    background-color: #081D81;
+    border: 1px solid white;
+    padding: 9px 32px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.learnmoreButton:hover{
+    background-color: white;
+    color: #081D81;
+}
+
+#section4{
+    position: relative;
+    height: 781px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0px;
+    background: linear-gradient(180deg, #1B1464, #081D81);
+}
+
+.trapezoid2{
+    position: absolute;
+    top: -175px;    
+    left: -100px;
+    width: 650px;
+    height: auto;
+    z-index: 2;
+}
+
+.trapezoid1{
+    position: absolute;
+    top: -175px;    
+    left: 100px;
+    width: 560px;
+    height: auto;
+    z-index: 1;
+}
+
+.trapezoid3{
+    position: absolute;
+    bottom: -175px;    
+    right: -50px;
+    width: 800px;
+    height: auto;
+    z-index: 2;
+}
+
+.trapezoid4{
+    position: absolute;
+    bottom: -175px;    
+    right: -50px;
+    width: 800px;
+    height: auto;
+    z-index: 1;
+}
+
+.happeningsimg{
+    height: 523px;
+    width: auto;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.news{
+    display: inline-block;
+    position: relative;
+    margin: 150px 20px 0px 20px;
+    transition: .3s ease;
+    height: 525px;
+    width: auto;
+
+}
+
+.news:hover{
+    display: inline-block;
+    position: relative;
+    margin: 150px 40px 0px 40px;
+    transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2 );
+
+}
+
+.announcement{
+    display: inline-block;
+    position: relative;
+    margin: 150px 0px 0px 0px;
+    transition: .3s ease;
+    height: 525px;
+    width: auto;
+}
+
+.announcement:hover{
+    display: inline-block;
+    position: relative;
+    margin: 150px 40px 0px 40px;
+   transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2 );
+}
+
+.features{
+    display: inline-block;
+    position: relative;
+    margin: 150px 0px 0px 0px;
+    transition: .3s ease;
+    height: 525px;
+    width: auto;
+    z-index: 7;
+}
+
+.features:hover{
+    display: inline-block;
+    position: relative;
+    margin: 150px 40px 0px 40px;
+    transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2 );
+}
+
+.happeningTextHolder{
+    font-family: "aftikabold";
+    font-size: 33px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#newsText{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#announcementText{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#featuresText{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#grayBackground{
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 655px;
+    background-color: #E7E7E7;
+    z-index: 0;
+}
+
+#section5{
+    display: block;
+    position: relative;
+    min-height: 650px;
+    width: 100vw;
+    background: white ;
+}
+
+.centeredSect5{
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: #081D81;
+    text-transform: uppercase;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#section6{
+    display: block;
+    position: relative;
+    height: 142px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 200px;
+    background: #081D81 ;
+}
+
+.centeredSect6{
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section7{
+    position: relative;
+    height: 570px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    background: white ;
+}
+
+#office{
+    font-family: "aftikabold";
+    position: absolute;
+    color: #081D81;
+    text-align: center;
+    top: 10%;
+    left: 20%;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+#contacts{
+    font-family: "aftikabold";
+    position: absolute;
+    color: #081D81;
+    text-align: center;
+    top: 10%;
+    right: 20%;   
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+#officelinks{
+    position: absolute;
+    text-align: center;
+    font-family: "aftikasemibold";
+    color: #081D81;
+    text-transform: uppercase;
+    font-size: 25px;
+    top: 21%;
+    left: 5%;
+    line-height: 45px;
+}
+
+#contactsdetail{
+    position: absolute;
+    top: 26%;
+    right: 5%;   
+}
+
+#emailIcon{
+    position: absolute;
+    width: 75px;
+    height: auto;
+    top: 150px;
+    right: 760px; 
+    z-index: 1;  
+}
+
+#phoneIcon{
+    position: absolute;
+    width: 75px;
+    height: auto;
+    top: 232px;
+    right: 760px; 
+    z-index: 1;  
+}
+
+#emailAddress{
+    position:absolute;
+    top: 168px;
+    right: 123px;
+    font-family: 'aftikasemibold';
+    color: #081d81;
+    font-size: 35px;
+    z-index: 1;
+}
+
+#phoneNumber{
+    position:absolute;
+    top: 252px;
+    right: 368px;
+    font-family: 'aftikasemibold';
+    color: #081d81;
+    font-size: 35px;
+    z-index: 1;
+}
+
+#governmenttext{
+    font-family: "aftikalight";
+    position: absolute;
+    color: #081D81;
+    text-transform: uppercase;
+    font-size: 25px;
+    top: 64%;
+    right: 30.5%;   
+}
+
+#governmentlinks{
+    position: absolute;
+    font-family: "aftikasemibold";
+    color: #081D81;
+    text-transform: uppercase;
+    font-size: 25px;
+    top: 71%;
+    right: 32%;
+    line-height: 40px;
+}
+
+.section8{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    background: #081D81 ;
+}
+
+.centeredfooter{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 43px;
+    color: white;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centeredfooter{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 43px;
+    color: white;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.centeredfooter2{
+    position: absolute;
+    text-align: center;
+    font-family: "aftikaregular";
+    font-size: 27px;
+    color: white;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 55px;
+}
+
+#section2history{
+    position: relative;
+    height: 670px;
+    width: 100%;
+    overflow: hidden;
+    background: white ;
+}
+
+#section3history{
+    position: relative;
+    height: 240vh;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    background: linear-gradient(180deg, #081D81, #081D81, #008745);
+    z-index:2;
+}
+
+#section4history{
+    position: relative;
+    height: 544px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    background: white ;
+    z-index: 2;
+}
+
+#section5history{
+    position: relative;
+    height: 115vh;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    background-image: url(plv\ main\ building.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.centeredSect2History{
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: #081D81;
+    text-transform: uppercase;
+    top: 25%;
+    left: 4%;
+}
+
+.pSect2History{
+    width: 45%;
+    text-indent: 30px;
+    text-align: justify;
+    position: absolute;
+    font-family: "aftikaregular";
+    font-size: 37px;
+    color: #081D81;
+    top: 43%;
+    left: 5%;
+}
+
+.plvworld{
+    position: absolute;
+    height: 155px;
+    width: auto;
+    top: 25%;
+    right: 10.7%;
+}
+
+#oldmain{
+    position: absolute;
+    height: 557px;
+    width: auto;
+    border-radius: 70px;
+    top: 38.5%;
+    right: 4%;
+    z-index:3;
+}
+
+#oldmaindetails{
+    position: absolute;
+    font-family: "aftikalight";
+    color: white;
+    width: 690px;
+    font-size: 24.5px;
+    top: 99%;
+    right: 4%;
+    z-index:3;
+}
+
+.pSect3History{
+    width: 45%;
+    text-indent: 30px;
+    text-align: justify;
+    position: absolute;
+    font-family: "aftikaregular";
+    font-size: 32.5px;
+    color: white;
+    top: 1%;
+    left: 5%;
+}
+
+.centeredSec3History{
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imgaftikabold{
+    position: absolute;
+    top: 40.2%;
+    left: 8.1%;
+    height: 680px;
+    width: auto;
+}
+
+#imgpres{
+    position: absolute;
+    top: 40.2%;
+    left: 8.1%;
+    height: 680px;
+    width: auto;
+}
+
+#presdetails{
+    position: absolute;
+    color: white;
+    top: 39%;
+    right: 14.8%;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: "aftikaregular"
+}
+
+.aftikaregular{
+    font-family: "aftikaregular";
+}
+
+.aftikabold{
+    font-family: "aftikabold";
+}
+
+#preshistory{
+    width: 45%;
+    text-indent: 30px;
+    text-align: justify;
+    position: absolute;
+    font-family: "aftikaregular";
+    font-size: 32.5px;
+    color: white;
+    top: 49.2%;
+    right: 5%;
+}
+
+.psect3HistoryBot{
+    color: white;
+    position: absolute;
+    top: 285%;
+    left: 22.2%;
+    width: 100%;
+    text-transform: uppercase;
+    z-index: 4;
+}
+
+.akira{
+    font-family: "akira_expandedsuper_bold";
+    font-size: 107px;
+    z-index: 3;
+
+}
+
+#at{
+    font-size: 57px;
+    font-family: "aftikabold";
+    z-index: 3;
+
+}
+
+#greenrec1{
+    position: absolute;
+    height: 915px;
+    width: auto;
+    top: 283%;
+    left: 232px;
+    z-index: 3;
+}
+
+#greenrec2{
+    position: absolute;
+    height: 796px;
+    width: auto;
+    top: 308%;
+    right: 56px;
+    z-index: 3;
+}
+
+#agile{
+    font-family: "aftikabold";
+    position: absolute;
+    color: #006837;
+    top: 322%;
+    right: 2%;
+    font-size: 61px;
+    text-transform: uppercase;
+    padding: 35px 20px 35px 20px;
+    background-color: white;
+    z-index: 4;
+}
+
+
+#sy{
+    font-family: "aftikasemibold";
+    position: absolute;
+    color: white;
+    top: 312%;
+    right: 14.5%;
+    font-size: 47px;
+    text-transform: uppercase;
+    z-index: 4;
+}
+
+#agilecontent{
+    width: 38%;
+    text-indent: 30px;
+    text-align: justify;
+    position: absolute;
+    font-family: "aftikaregular";
+    font-size: 29px;
+    color: white;
+    top: 350%;
+    right: 5.5%; 
+    z-index: 4;
+}
+
+#twenty{
+    font-family: "aftikabold";
+    position: absolute;
+    color: white;
+    top: 303%;
+    left: 100px;
+    font-size: 630px;
+    text-shadow: -35px 10px 0 #008745;
+    text-transform: uppercase;
+    z-index: 4;
+}
+
+#years{
+    font-family: "aftikasemibold";
+    position: absolute;
+    color: #006837;
+    top: 316%;
+    left: 38%;
+    font-size: 47px;
+    text-transform: uppercase;
+    z-index: 4;
+}
+
+#mayor{
+    position: absolute;
+    bottom: 7px;
+    right: 30px;
+    font-family: "aftikalight";
+    font-size: 20px;
+    color: white;
+}
+
+.section1Courses{
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100px;
+}
+
+#plvlogoCourses{
+    position: absolute;
+    top: 16px;
+    left: 27px;
+    width: 113px;
+    height: auto;
+    z-index: 5;
+}
+
+#navulCourses{
+    position: absolute;
+    margin: 51px 34px 0 0;
+    right: 0;
+    z-index: 4;
+}
+
+#navulHome{
+    margin-top: 51px;
+    z-index: 4;
+
+}
+
+.section2Courses{
+    display: block;
+    position: relative;
+    min-height: 300px;
+    width: 100vw;
+    background: white ;
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+
+#plvworld{
+    width: 700px;
+    height: auto;
+}
+
+#plvworldposition{
+    display: block;
+    position: absolute;
+    top: 160px;
+    left: 49.6%;    
+    transform: translate(-50%, -50%);
+}
+
+#programsOffered{
+    display: block;
+    position: absolute;
+    font-family: "aftikabold";
+    font-size: 48px;
+    color: #091d80;
+    text-transform: uppercase;
+    top: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#coed {
+    display: block;
+    position: relative;
+    font-size: 26px;
+    width: 1674px;
+    min-height: 100px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #081d81;
+    margin: 0px 110px 0px 130px;
+}
+
+#ceit{
+    display: block;
+    position: relative;
+    font-size: 26px;
+    width: 1674px;
+    min-height: 100px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #081d81;
+    margin: 86px 110px 0px 130px;
+}
+
+#cas{
+    display: block;
+    position: relative;
+    font-size: 26px;
+    width: 1674px;
+    min-height: 100px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #081d81;
+    margin: 86px 110px 0px 130px;
+
+}
+
+#caba{
+    display: block;
+    position: relative;
+    font-size: 26px;
+    width: 1674px;
+    min-height: 100px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #081d81;
+    margin: 86px 110px 0px 130px;
+}
+
+.college {
+    border-style: solid;
+    border-color: #1812d6;
+    background-color: #1812d6;
+    color: white;
+    font-size: 27px;
+    font-family: 'aftikabold';
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0px;
+    text-indent: 35px;
+    text-transform: uppercase;
+}
+
+#collegeOfEducation {
+    border-style: solid;
+    border-color: #1812d6;
+    background-color: #1812d6;
+    color: white;
+    font-size: 27px;
+    font-family: 'aftikabold';
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 0px;
+    text-indent: 35px;
+    text-transform: uppercase;
+}
+
+.bachelorClosed {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding-left: 35px;
+    padding-bottom: 0.1px;
+    font-size: 31px;
+    font-family: 'aftikasemibold';
+    position: relative;
+    text-transform: uppercase;
+}
+
+.bachelorClosedCurvedBottom{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding-left: 35px;
+    padding-bottom: 0.1px;
+    font-size: 31px;
+    font-family: 'aftikasemibold';
+    position: relative;
+    text-transform: uppercase;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+}
+
+
+
+.arrowkeyBlue{
+    position: absolute;
+    height: 65px;
+    width: auto;
+    right: 35px;
+    padding-top: 25px;
+    border: 0;
+    z-index: 2;
+}
+
+.arrowkeyBlue2{
+    position: absolute;
+    height: 65px;
+    width: auto;
+    right: 35px;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+
+.bachelorOpen {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: #081d81;
+    color: white;
+    left: -35px;
+    padding-left: 35px;
+    width: 1640px;
+    height: 117.5px;  
+    padding-bottom: 0.1px;
+    font-size: 31px;
+    font-family: 'aftikasemibold';
+    position: relative;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
+.bachelorOpen2 {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: #081d81;
+    color: white;
+    left: -35px;
+    padding-left: 35px;
+    width: 1640px;
+    padding-bottom: 0.1px;
+    font-size: 31px;
+    font-family: 'aftikasemibold';
+    position: relative;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
+.bachelorOpenedCurvedBottom{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: #081d81;
+    color: white;
+    left: -35px;
+    padding-left: 35px;
+    width: 1640px;
+    height: 117.5px;  
+    padding-bottom: 0.1px;
+    font-size: 31px;
+    font-family: 'aftikasemibold';
+    position: relative;
+    text-transform: uppercase;
+    z-index: 0; 
+}
+
+.courseDetails {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+.courseDetailsVisible {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: inline;
+}
+
+.courseDetailsCurvedBottom {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: none;
+}
+
+/**COLLEGE OF EDUCATION - COLLEGE OF EDUCATION - COLLEGE OF EDUCATION - COLLEGE OF EDUCATION*/
+#toggleBEEDCHED{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#toggleBEEDCHED.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;    
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBEEDCHED {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSEDMIE{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#toggleBSEDMIE.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;    
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSEDMIE {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSEDMIF{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSEDMIF.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSEDMIF{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSEDMIM{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSEDMIM.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSEDMIM{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSEDMIS{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSEDMIS.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSEDMIS{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSEDMISS{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSEDMISS.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsCurvedBottomBSEDMISS {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: none;
+}
+
+
+
+/* *COLLEGE OF ENGINEERING AND INFORMATION TECHNOLOGY - COLLEGE OF ENGINEERING AND INFORMATION TECHNOLOGY */
+#toggleBSCE{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSCE.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSCE{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSEE{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSEE.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSEE{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSIT{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSIT.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsCurvedBottomBSIT {
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: none;
+}
+
+
+/* *COLLEGE OF ARTS AND SCIENCES - COLLEGE OF ARTS AND SCIENCES - COLLEGE OF ARTS AND SCIENCES */
+#toggleBSIP{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSIP.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSIP{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSSW{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSSW.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSSW{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSC{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSC.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsCurvedBottomBSC{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: none;
+}
+
+
+
+/* *COLLEGE OF BUSINESS, ACCOUNTANCY, AND PUBLIC ADMINISTRATION - COLLEGE OF BUSINESS, ACCOUNTANCY, AND PUBLIC ADMINISTRATION */
+#toggleBSA{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSA.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSA{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSAD{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 50px;
+    z-index: 3;
+} 
+#toggleBSAD.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 50px;
+    z-index: 3;
+}
+#courseDetailsBSAD{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSADMMM{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 50px;
+    z-index: 3;
+} 
+#toggleBSADMMM.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 50px;
+    z-index: 3;
+}
+#courseDetailsBSADMMM{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+}
+
+
+
+#toggleBSADHR{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 50px;
+    z-index: 3;
+} 
+#toggleBSADHR.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 50px;
+    z-index: 3;
+}
+#courseDetailsBSADHR{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    display: none;
+} 
+
+#toggleBSPUBAD{
+    position: absolute;
+    width: 65px;
+    height: 100px;
+    background: url(home-assets/arrow-key-[blue]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+} 
+#toggleBSPUBAD.active{
+    background: url(home-assets/arrow-key-[white]_1.png);
+    background-repeat: no-repeat;
+    background-size: 65px auto;
+    background-position: center;
+    cursor: pointer;
+    right: 35px;
+    padding-top: 25px;
+    z-index: 3;
+}
+#courseDetailsBSPUBAD{
+    border-top-style: solid;
+    border-color: #081d81;
+    background-color: white;
+    color: #081d81;
+    padding: 40px 88px 100px 88px;
+    font-size: 30px;
+    font-family: 'aftikaregular';
+    position: relative;     
+    text-align: justify;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: none;
+}
+
+#section4Courses{
+    display: block;
+    position: relative;
+    min-height: 657px;
+    width: 100vw;
+    background: white ;
+    overflow: hidden;
+}
+
+#visitUsOn{
+    position:absolute;
+    left: 140px;
+    top: 147px;
+    font-family: 'aftikasemibold';
+    color: #081d81;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#facebookLogo{
+    position:absolute;
+    top: 198px;
+    left: 135px;
+    width: 82px;
+    height: auto;
+}
+
+#officeOfAdmissions{
+    position:absolute;
+    left: 245px;
+    top: 210px;
+    font-family: 'aftikabold';
+    color: #081d81;
+    font-size: 39px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+#address{
+    position:absolute;
+    left: 245px;
+    top: 285px;
+    font-family: 'aftikasemibold';
+    color: #081d81;
+    font-size: 30px;
+}
+
+#email{
+    position:absolute;
+    top: 455px;
+    left: 140px;
+    width: 82px;
+    height: auto;
+}
+
+#schoolGmail{
+    position:absolute;
+    top: 470px;
+    left: 245px;
+    font-family: 'aftikasemibold';
+    color: #081d81;
+    font-size: 33px;
+}
+
+
+
+
+
+
+
+
+#box1{
+    display: block;
+    position: relative;
+    background-color: rgb(112, 38, 62);
+    width: 100vw;
+    min-height: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+#box2{
+    display: block;
+    position: relative;
+    background-color: rebeccapurple;
+    width: 100vw;
+    min-height: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+#box3{
+    display: block;
+    position: relative;
+    background-color: peru;
+    width: 100vw;
+    min-height: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+#box4{
+    display: block;
+    position: relative;
+    background-color: black;
+    width: 100vw;   
+    min-height: 100px;
+    margin: 0px 0px 100px 0px;
+}
+
+#content1{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 30px;
+    bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: black;
+    font-size:  15px;
+    background-color: yellowgreen;
+}
+
+#content2{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 30px;
+    bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    font-size:  15px; 
+}
+
+#content3{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 30px;
+    bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: crimson;
+    text-align: center;
+    color: black;
+    font-size:  15px; 
+}
+
+#content4{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 30px;
+    bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: black;
+    font-size:  15px; 
+}
+
+.circle{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 30px;
+    bottom: 0px;
+    margin: 0px 0px 0px 0px;
+
+    background-color: #081D81;
+}
+
+.e{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    
+    /* top: 0px; */
+    background-color: yellow;
+    display: none;
+}
+
+.padding{
+    position: absolute;
+    top: 50px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.card {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform .4s ease;
+  cursor: pointer;
+}
+
+.container {
+  display: block;
+  position: absolute;
+  width: 1700px;
+  height: 600px;
+  top: 190px;
+  left: 120px;
+  right: 0px;
+  bottom: 0px;
+  transform-style: preserve-3d;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 4;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+    transform: translatex(-40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+    transform: translatex(40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
+
+.upper-part {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  height: 36px;
+  overflow: hidden;
+}
+
+
+
